@@ -9,6 +9,9 @@ Das Script dient außerdem auch als Beispielvorlage für andere Entwickler, die 
 **Wichtig**: Dieses Script ersetzt **keine** native LDAP-Integration in FabAccess!
 
 # Installation
+```bash
+sudo apt install build-essential python3-dev libldap2-dev libsasl2-dev ldap-utils
+```
 
 ```bash
 cd /opt/fabinfra/scripts/
