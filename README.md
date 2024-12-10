@@ -38,7 +38,7 @@ usage: main.py [-h] [-s SERVER] [-u USER] [-p PASSWORD] [-b BASEDN] [--filter_us
 options:
   -h, --help            show this help message and exit
   -s SERVER, --server SERVER
-                        LDAP Server (Syntax: <protocol>://host:port, e.g. ldap://192.168.1.1:389 or ldaps://192.168.1.1.:646)
+                        LDAP Server (Syntax: <protocol>://host:port, e.g. ldap://192.168.1.1:389 or ldaps://192.168.1.1.:636)
   -u USER, --user USER  User, e.g. 'uid=root,cn=users,dc=yourserver,dc=com'
   -p PASSWORD, --password PASSWORD
                         Password
