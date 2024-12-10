@@ -19,6 +19,11 @@ git clone https://github.com/vmario89/fabaccess-users-toml-ldap.git
 
 cd /opt/fabinfra/scripts/fabaccess-users-toml-ldap/
 chmod +x /opt/fabinfra/scripts/fabaccess-users-toml-ldap/main.py
+
+python3 -m venv env
+. env/bin/activate #activate venv
+pip install -r requirements.txt
+
 chown -R bffh:bffh /opt/fabinfra/scripts/fabaccess-users-toml-ldap/
 ```
 
